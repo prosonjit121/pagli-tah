@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daisy Ui</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <label class="swap swap-flip text-9xl">
+  
+    <!-- this hidden checkbox controls the state -->
+    <input type="checkbox" />
+    
+    <div class="swap-on">❤
+      I Love YOU❤
+    </div>
+    <div class="swap-off">Pagli😍</div>
+  </label>
+
+<br>
+<br>
+<div class="collapse collapse-arrow bg-base-200">
+    <input type="radio" name="my-accordion-2" checked="checked" /> 
+    <div class="collapse-title text-xl font-medium">
+      Do You Love me?
+    </div>
+    <div class="collapse-content"> 
+      <p>Yes</p>
+    </div>
+  </div>
+  <div class="collapse collapse-arrow bg-base-200">
+    <input type="radio" name="my-accordion-2" /> 
+    <div class="collapse-title text-xl font-medium">
+        Who is your Husband?
+    </div>
+    <div class="collapse-content"> 
+      <p>Pappu Roy</p>
+    </div>
+  </div>
+  <div class="collapse collapse-arrow bg-base-200">
+    <input type="radio" name="my-accordion-2" /> 
+    <div class="collapse-title text-xl font-medium">
+      What does he do?
+    </div>
+    <div class="collapse-content"> 
+      <p>Web Developer</p>
+    </div>
+  </div>
+  <!-- The button to open modal -->
+<label for="my_modal_6" class="btn">open modal</label>
+
+<!-- Put this part before </body> tag -->
+<input type="checkbox" id="my_modal_6" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box">
+    <h3 class="font-bold text-lg">Hello!</h3>
+    <p class="py-4">Tumi Akta PAgli</p>
+    <div class="modal-action">
+      <label for="my_modal_6" class="btn">Close!</label>
+    </div>
+  </div>
+</div>
+</body>
+</html>
